@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CrevecoeurArnaud_WPF_Agencement_Exercice1/1.0.0": {
+        "runtime": {
+          "CrevecoeurArnaud_WPF_Agencement_Exercice1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CrevecoeurArnaud_WPF_Agencement_Exercice1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
