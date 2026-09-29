@@ -1,0 +1,50 @@
+﻿<Window x:Class="CrevecoeurArnaud_WPF_Agencement_Exercice2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrevecoeurArnaud_WPF_Agencement_Exercice2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400">
+    <Grid Background="lightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Rectangle Height="80" Width="320" Fill="White" Margin="10,10,15,0"/>
+            <Button Height="50" Width="50" Background="Red" Content="C" FontSize="30" FontWeight="Bold"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="10,10,15,0" Content="1" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="2" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="3" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="Green" Margin="40,10,15,0" Content="+" FontSize="30" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="10,10,15,0" Content="4" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="5" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="6" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="Green" Margin="40,10,15,0" Content="-" FontSize="30" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3">
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="10,10,15,0" Content="7" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="8" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="9" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="Green" Margin="40,10,15,0" Content="/" FontSize="30" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="4">
+            <Button Height="50" Width="50" Background="LightBlue" Margin="10,10,15,0" Content="," FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="DarkCyan" Margin="40,10,15,0" Content="0" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="Green" Margin="40,10,15,0" Content="*" FontSize="30" FontWeight="Bold"/>
+            <Button Height="50" Width="50" Background="Gold" Margin="40,10,15,0" Content="=" FontSize="30" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>
